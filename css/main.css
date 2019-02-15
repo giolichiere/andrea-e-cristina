@@ -43,7 +43,7 @@ a:hover {
   margin-top: 50px;
 }
 #header-home {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("https://raw.githubusercontent.com/isadoracreative/williams-colmenares-wedding/master/images/merida-hillside.jpg");
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("../images/trampoli.jpg");
   background-position: 50% 35%;
 }
 #header-schedule {
