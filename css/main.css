@@ -43,27 +43,27 @@ a:hover {
   margin-top: 50px;
 }
 #header-home {
-  background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("../images/trampoli.jpg");
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 255, 255, 0.35)), url("../images/homepage.jpg");
   background-position: 50% 35%;
 }
-#header-schedule {
-  background-image: url("../images/trampoli.jpg");
+#header-ricevimento {
+  background-image: url("../images/ricevimento.jpg");
   background-position: 50% 30%;
 }
-#header-registry {
-  background-image: url("../images/trampoli.jpg");
+#header-grazie {
+  background-image: url("../images/grazie.jpg");
   background-position: 50% 60%;
 }
-#header-travel {
-  background-image: url("../images/trampoli.jpg");
-  background-position: 50% 60%;
+#header-listanozze {
+  background-image: url("../images/listanozze.jpg");
+  background-position: 50% 20%;
 }
-#header-activities {
-  background-image: url("../images/trampoli.jpg");
-  background-position: 50% 60%;
+#header-noidue {
+  background-image: url("../images/noidue.jpg");
+  background-position: 50% 80%;
 }
-#header-photos {
-  background-image: url("../images/trampoli.jpg");
+#header-viaggio {
+  background-image: url("../images/viaggio.jpg");
   background-position: 30% 45%;
 }
 #header-rsvp {
