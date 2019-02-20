@@ -5,13 +5,13 @@
 var map;
 function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 42.611713, lng: -70.650385},
-          zoom: 14
+          center: {lat: 42.8104553, lng: 12.7903149},
+          zoom: 16
         });
-  
+
         let marker = new google.maps.Marker({
-          position: {lat: 42.611713, lng: -70.650385},
+          position: {lat: 42.8104553, lng: 12.7903149},
           map: map,
-          title: 'The Harbor Room'
+          title: 'Castello di Poreta'
         });
       }
