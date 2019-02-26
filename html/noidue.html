@@ -62,10 +62,10 @@
             - <i class="far fa-images"></i> -
           </p>
         </section>
-        <section id="photos" class="container">
+        <section id="photos" class="photos container">
           <div class="card-columns">
             <div class="card">
-              <img class="card-img-top" src="../images/noidue/agilita.jpg" alt="">
+              <img class="card-img-top" src="../images/noidue/agilita.jpg" alt="" data-toggle="modal" data-bigimage="/images/noidue/agilita.jpg"  data-target="#myModal">
               <div class="card-body">
                 <h6 class="card-title mb-1">Cristina si contraddistingue per la sua agilità</h6>
               </div>
@@ -348,7 +348,29 @@ Fa ballare i burattini</h6>
       </section>
 
     </footer>
-    
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+
+                <img src="" alt="" id="image" class="img-fluid">
+
+        
+        
+      </div>
+
+    </div>
+  </div>
+</div> 
+<!-- Modal -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

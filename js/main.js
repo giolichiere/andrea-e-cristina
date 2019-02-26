@@ -1,17 +1,35 @@
-/* Script for WilliamsColmenaresWedding.info */
-/* Website visual design and front-end development by Isadora Williams, copyright 2018 */
-/* isadoracreative.com */
+$(document).ready(function() {
 
-var map;
-function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 42.8104553, lng: 12.7903149},
-          zoom: 16
-        });
+// Gets the video src from the data-src on each button
+var $imageSrc;  
+$('.photos img').click(function() {
+    $imageSrc = $(this).data('bigimage');
+});
+console.log($imageSrc);
+  
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
 
-        let marker = new google.maps.Marker({
-          position: {lat: 42.8104553, lng: 12.7903149},
-          map: map,
-          title: 'Castello di Poreta'
-        });
-      }
+$("#image").attr('src', $imageSrc  ); 
+})
+  
+  
+// reset the modal image
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#image").attr('src',''); 
+}) 
+    
+    
+
+
+  
+  
+// document ready  
+});
+
+
