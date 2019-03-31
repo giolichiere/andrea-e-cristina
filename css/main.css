@@ -1,4 +1,4 @@
-/* Styles for WilliamsColmenaresWedding.info */
+﻿/* Styles for WilliamsColmenaresWedding.info */
 /* Website visual design and front-end development by Isadora Williams, copyright 2018 */
 /* isadoracreative.com */
 
@@ -56,11 +56,12 @@ a:hover {
 }
 #header-listanozze {
   background-image: url("../images/listanozze.jpg");
-  background-position: 50% 20%;
+  
+background-position: 50% 80%;
 }
 #header-noidue {
   background-image: url("../images/noidue.jpg");
-  background-position: 50% 80%;
+  background-position: 50% 20%;
 }
 #header-viaggio {
   background-image: url("../images/viaggio.jpg");
