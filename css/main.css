@@ -131,7 +131,7 @@ ul.bullet-link-list li::before {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .card-columns {
-    column-count: 3;
+    column-count: 2;
   }
 }
 
